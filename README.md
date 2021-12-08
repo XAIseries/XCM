@@ -1,6 +1,6 @@
 # XCM: An Explainable Convolutional Neural Network for Multivariate Time Series Classification
 This repository contains the Keras implementations of XCM, XCM-Seq and MTEX-CNN networks 
-as described in the paper [XCM: An Explainable Convolutional Neural Network for Multivariate Time Series Classification](https://www.mdpi.com/2227-7390/9/23/3137).
+as described in the paper [XCM: An Explainable Convolutional Neural Network for Multivariate Time Series Classification](https://arxiv.org/pdf/2009.04796.pdf).
 
 ![Alt-Text](/images/XCM.png)
 
