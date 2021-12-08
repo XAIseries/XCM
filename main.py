@@ -20,6 +20,8 @@ if __name__ == "__main__":
         window_size = float(sys.argv[4])
     else:
         window_size = 0
+    
+    model_dict = {'XCM': xcm, 'XCM-Seq': xcm_seq, 'MTEX-CNN': mtex_cnn}
     epochs = 100
     n_splits = 5
     
@@ -41,7 +43,6 @@ if __name__ == "__main__":
         ytrain, yval, ytrain_nonencoded, yval_nonencoded = y_train[train_indices], y_train[val_indices], y_train_nonencoded[train_indices], y_train_nonencoded[val_indices]
 
         # Train the model
-        model_dict = {'XCM': xcm, 'XCM-Seq': xcm_seq, 'MTEX-CNN': mtex_cnn}
         if model_name in ['XCM', 'XCM-Seq']:
             model = model_dict[model_name](input_shape=xtrain.shape[1:], n_class=ytrain.shape[1], window_size=window_size)
         else:
@@ -59,7 +60,6 @@ if __name__ == "__main__":
         
     # Train the model on the full train set
     print('Training on the full train set')
-    model_dict = {'XCM': xcm, 'XCM-Seq': xcm_seq, 'MTEX-CNN': mtex_cnn}
     if model_name in ['XCM', 'XCM-Seq']:
         model = model_dict[model_name](input_shape = x_train.shape[1:], n_class=y_train.shape[1], window_size=window_size)
     else:
