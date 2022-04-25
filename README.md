@@ -5,11 +5,12 @@ as described in the paper [XCM: An Explainable Convolutional Neural Network for 
 ![Alt-Text](/images/XCM.png)
 
 ## Requirements
-Networks have been implemented in Python 3.6 with the following packages:
+Networks have been implemented in Python 3.8 with the following packages:
 * Keras
 * Numpy
 * Pandas
 * Scikit-Learn
+* TensorFlow
 
 ## Usage
 Run `main.py` with the following arguments:
