@@ -1,5 +1,5 @@
 {
-    "experiment_run": 0,
+    "experiment_run": 1,
     "dataset": "BasicMotions",
     "model_name": "XCM", 
     "window_size": 0.2, # percentage of the time series length expected to be interesting to extract discriminative features - only for XCM and XCM-Seq (float)
