@@ -1,0 +1,15 @@
+{
+    "experiment_run": 1,
+    "dataset": "SWAT",
+    "model_name": "XCM", 
+    "window_size": 0.2, # percentage of the time series length expected to be interesting to extract discriminative features - only for XCM and XCM-Seq (float)
+    "cv_folds": 5,
+    "epochs": 100,
+    "batch_size": 32,
+    "random_state": 123,
+    
+    # Explanation
+    "set": "test",
+    "mts_sample_id": 0,
+    "layer_name": "2D_Activation",
+}
