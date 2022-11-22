@@ -1,0 +1,14 @@
+Model: XCM
+
+Dataset SWAT loaded
+Training set size: 5623
+Testing set size: 1875
+
+Training on fold 1
+Accuracy Test: 0.9472
+
+Training on fold 2
+Accuracy Test: 0.944
+
+Training on fold 3
+Accuracy Test: 0.9541333333333334
