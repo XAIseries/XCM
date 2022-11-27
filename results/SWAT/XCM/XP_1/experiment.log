@@ -12,3 +12,8 @@ Accuracy Test: 0.944
 
 Training on fold 3
 Accuracy Test: 0.9541333333333334
+Model: XCM
+
+Dataset SWAT loaded
+Training set size: 5623
+Testing set size: 1875
